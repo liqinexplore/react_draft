@@ -1,3 +1,3 @@
 
-# webpack_react
-### react，react-router，webpack，babel，redux项目搭建完成
+# react_draft
+### react，react-router，webpack，babel，redux draft项目搭建完成
