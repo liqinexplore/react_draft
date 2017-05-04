@@ -54,7 +54,7 @@ webpackJsonp([1],{
 	                _react2.default.createElement(
 	                    'h1',
 	                    null,
-	                    'Circle'
+	                    '\u6211\u662F\u5929\u771F'
 	                ),
 	                _react2.default.createElement(
 	                    'div',

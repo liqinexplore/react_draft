@@ -17,7 +17,7 @@ class Home extends React.Component {
         this.receiveRaw = this.receiveRaw.bind(this);
     }
     receiveHtml(htmlContent) {
-        console.log("receiveHtml", htmlContent);
+        console.log("receiveHtml,返回的姓名", htmlContent);
     }
     receiveMarkdown(content) {
         console.log("recieved markdown content", content);
@@ -44,7 +44,7 @@ class Home extends React.Component {
 
                 <div>
                     <h1>draft-js模式一</h1>
-                    <DrafEditor active={true} HtmlContent={this.state.content} cbReceiver={this.receiveHtml} uploadConfig={uploadConfig} Image={false} Video={false} Audio={false}/>
+                    <DrafEditor active={true} HtmlContent={this.state.content} cbReceiver={this.receiveHtml} uploadConfig={uploadConfig} Image={true} Video={true} Audio={false}/>
                 </div>
                 <div>
                     <h1>draft-js模式二</h1>
